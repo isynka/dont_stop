@@ -16,7 +16,7 @@ jobs:
       run: echo "I LOVE U <3" >> report.txt
     - name: Commit file
       run: |
-          git config --global user.name 'khaitk'
+          git config --global user.name 'isynka'
           git config --global user.email 'khaitkdev@gmail.com'
           git add report.txt
           git commit -am "Automated report"
