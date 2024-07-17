@@ -20,4 +20,4 @@ jobs:
           git config --global user.email 'khaitkdev@gmail.com'
           git add report.txt
           git commit -am "Automated report"
-          git push
+          git push origin develop
