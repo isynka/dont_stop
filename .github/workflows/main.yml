@@ -3,7 +3,7 @@ name: Auto commit github
 on:
   # Triggers the workflow from 0 through 30 past every hour from 18 through 22
   schedule:
-    - cron: "5 7 * * *"
+    - cron: "30 17 * * *"
 
 jobs:
   auto_commit:
